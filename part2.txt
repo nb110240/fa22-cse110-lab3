@@ -1,1 +1,5 @@
 Fill in the passphrases here.
+<!-- Passcode for question 1: greenEggsAndHam -->
+
+// Question 6 Passcode: ThisIsJS
+/* Question 8 passcode: coolcoolcool */
