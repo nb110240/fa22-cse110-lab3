@@ -1,5 +1,14 @@
 Fill in the passphrases here.
 <!-- Passcode for question 1: greenEggsAndHam -->
-
+Question 1: greenEggsAndHam
+Question2: iHateCplusplus
+Question 3: HTMLRocks
+Question4: JavaScriptRules
+Question5: SveltBeatsReacts
 // Question 6 Passcode: ThisIsJS
+Question7: YouFoundMe
 /* Question 8 passcode: coolcoolcool */
+Question9: 2020sucked 
+Question10: listenToThelackeys
+Question11: a11yComesFirst
+Question12: "iLoveWebDev"
