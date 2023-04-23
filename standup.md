@@ -30,4 +30,8 @@ The person handling the talking parts does this stuff ten minutes before standup
 
 The person who is facilitating the meeting should use the template below as an agenda.
 
+<<<<<<< HEAD
 ## After standup
+=======
+## After standup
+>>>>>>> 2cec474edf67d70ec204b857b2b1bdde41c8cfca
