@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="meeting_min.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>Team meeting 110</title>
   </head>
-  <body>
+  <body style="background-color: rgba(199, 206, 192, 0.75);"style="color: rgb(201, 76, 76);">
     <main>
         <section>
             <header>
@@ -17,35 +18,67 @@
             <h3>Attendance List</h3>
                     <ol>   
                         <li>Prof Powell</li>
-                        <li>Neil Bajaj</li>
+                        <li style="color: orange;">Neil Bajaj</li>
                         <li>TA1</li>
                         <li>TA2</li>
                     </ol>
-            
+        <p>Hello everyone</p>
         </section>
         <nav>
-            <a href="/html/">HTML</a>
+            <a href="/html/" class="min">HTML</a>
         </nav>
         <hr>
-        <div class="myDiv">
-            <h2>This meeting is very important </h2>
+        <div style="font-size: 130%;" class="myDiv">
+            <h2 style="color: hsl(10 100% 50% / 0.6);">This meeting is very important </h2>
             <p>confidentiality is required.</p>
         </div>
-        <p>The meeting code is <span style="color:blue">blue</span>.</p>
-        <h1>Talking points</h1>
-        <ul>
+        <p>The meeting code is <span style="color:blue">Jeffery and Nayvadius</span>.</p>
+        <h1 style="color:#00ff00;"> Talking points.
+        </h1>
+
+        <div class="grid-container">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+        </div>
+
+        <p><abbr title="Introduction to Software Engineering">CSE110</abbr> is the most interesting class I have taken at UC San Diego.</p>
+        <div>Watch this element as you resize your viewport's width.</div>
+        <div class="box" style="color: rebeccapurple;">
+            <h2>Team Goals!!</h2>
+            <p>Complete magic 8 ball by tuesday <span>Work together and resolve all issues</span>.</p>
+        </div>
+
+        <div class="flex-container">
+            <div>10</div>
+            <div>20</div>
+            <div>30</div>
+        </div>
+    
+        <ul style="font-size: 12px;" id="para1">
             <li>Overall Great project idea</li>
-            <li>Can be implemented really well</li>
-            <li>make changes in <b>timeline</b>part</li>
+            <li style="font-size: 10px;">Can be implemented really well</li>
+            <li>make changes in <b>timeline</b> part.</li>
             <li>How can we make this project more useful to us as future software engineers</li>
-            <li>Below is a diagram drawn during the meeting</li>
+            <li style="font-size: 0.8em;">Below is a diagram drawn during the meeting</li>
         </ul>
         <img src="libsysuc2-2.png" alt="Meeting Diagrams" width="500" height="600">
-        <p><em>Thank you</em> everyone for showing up</p>
+        
+        <div class="box">
+            <div class="float">Next weeks plans!</div>
+            <p>Get better and HTML and CSS.</p>
+        </div>
+
+        <form>
+            <label for="my-button">My button: </label>
+            <button id="my-button" type="button">Try Clicking Me or My Label!</button>
+          </form>
+       
         <details>
-            <summary>Meeting Summary</summary>
+            <summary style="font-size: 2.8ex;">Meeting Summary</summary>
             <p>Have a more clear idea on how to implement our project after talking with the professor</p>
         </details>
+        <p style="font-size: 0.4cm;"><em>Thank you</em> everyone for showing up!!!</p>
         <audio controls>
             <source src="reflection_30sec-8472.mp3" type="audio/mpeg">
             
@@ -54,6 +87,9 @@
             <source src="1045144981-preview.mp4" type="video/mp4">
           </video>
 
+
+        <p>Would you like to join our quest?</p>
+        <button class="joinBtn">Confirm</button>    
     </main>
     <form action="/action_page.php" method="get">
         <fieldset>

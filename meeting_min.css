@@ -1,0 +1,177 @@
+.box {
+    background-color: #567895;
+    margin-top: -40px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+  }
+  h1{
+    display: inline;
+  }
+  p {
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif,serif;
+  }
+  @font-face {
+    font-family: "myFont";
+    src: url("Bruno_Ace_SC/BrunoAceSC-Regular.ttf");
+  }
+  html {
+    font-family: "myFont", "Bitstream Vera Serif", serif;
+  }
+  *{
+    font-family: "myFont";
+  }
+  #para1 {
+    text-align: center;
+    color: red;
+  }
+  h2 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin: auto;
+    position: sticky;top: 02px;
+    text-decoration: underline;
+    text-align: center;
+  }
+  span {
+    display: block;
+    background-color: rgba(255,255,255,.5);
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 25px 50px 25px 20px;
+    
+  }
+  a[target] {
+    background-color: rgb(255, 0, 72);
+  }
+  a {
+    background-color: powderblue;
+    transition: background-color 0.5s;
+  }
+  
+  a:hover {
+    background-color: gold;
+  }
+  div + p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+  }
+  .max {
+    max-width: 100%;
+  }
+  .min{
+    min-width: none;
+  }
+  /* This is my first CSS comment and first use of CSS */
+  .joinBtn {
+    width: 10em;
+    height: 5ex;
+    background-color: gold;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.joinBtn:hover {
+    background-color: bisque;
+}
+form :active {
+    color: red;
+  }
+  
+form button {
+    background: white;
+}
+.box {
+    background-color: rgb(224, 206, 247);
+    border: 5px solid rebeccapurple;
+    display: flow-root;
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+
+    position: static;
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    width: 50vw;
+    height: 20vh;
+  }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.float {
+    float: left;
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+.grid-container {
+    display: grid;
+    column-count: 3;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-content: space-evenly;
+}
+.item1 {
+    grid: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+img,
+picture,
+video {
+  max-width: 100%;
+}
+
+abbr {
+    color: chocolate;
+}
+
+@media (hover: hover) {
+    abbr:hover {
+        color: limegreen;
+        transition-duration: 1s;
+    }
+}
+
+@media not all and (hover: hover) {
+    abbr::after {
+        content: ' (' attr(title) ')';
+    }
+}
+@media (width: 360px) {
+    div {
+      color: red;
+    }
+}
+  
+/* Minimum width */
+@media (min-width: 35rem) {
+    div {
+      background: rgb(124, 196, 214);
+    }
+}
+@media (max-width: 50rem) {
+    div {
+      border: 2px solid rgb(4, 4, 8);
+    }
+  }
